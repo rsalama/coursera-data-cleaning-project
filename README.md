@@ -1,3 +1,17 @@
+## ID Fields
+## ID 
+* `subject` - The participant ("subject") ID
+* `activity` - The label of the activity performed when the corresponding measurements were taken
+
+## Extracted Feature Fields
+
+## ID Fields
+|name|levels|description|
+|---|---|---|
+|activity|LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS||
+|subject|1 - 30|number corresponding to subject in the test|
+
+## Feature fields extracted from data
 |index|original col name|new col name|
 |---:|:---:|:---|
 |1|tBodyAcc-mean()-X|tBodyAcc-mean-X|
