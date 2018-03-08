@@ -1,8 +1,8 @@
 
 ## ID Fields
 |name|levels|description|
-|---|---|---|activity when measurement was taken|
-|activity|LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS||
+|---|---|---|
+|activity|LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS|activity when measurement was taken|
 |subject|1 - 30|number corresponding to subject in the test|
 
 ## Feature fields extracted from data
