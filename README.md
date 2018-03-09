@@ -7,7 +7,7 @@
 
 ## Script contents:
 * Defines a function, `readData <- function(d, features, actvts)` which takes the following inputs:
-* dir: directory which contains the data (test or train)
+.* dir: directory which contains the data (test or train)
 * features: column names we care about (std and mean)
 * actvts: lookup table with activity label and numeric equivalent
 * Outputs: dataframe consisting of the std and mean columns, subject number, and activity labels as text 
