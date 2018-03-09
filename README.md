@@ -36,7 +36,7 @@
 ## Feature fields extracted from data
 ## index corresponds to the position of column in the original data
 |index|original col name|new col name|range|
-|---:|:---:|:---|
+|---:|:---:|:---|---|
 |1|tBodyAcc-mean()-X|tBodyAcc-mean-X|-1.0 - 1.0|
 |2|tBodyAcc-mean()-Y|tBodyAcc-mean-Y|-1.0 - 1.0|
 |3|tBodyAcc-mean()-Z|tBodyAcc-mean-Z|-1.0 - 1.0|
