@@ -7,10 +7,10 @@
 
 ## Script contents:
 * Defines a function, `readData <- function(d, features, actvts)` which takes the following inputs:
-** dir: directory which contains the data (test or train)
-** features: column names we care about (std and mean)
-** actvts: lookup table with activity label and numeric equivalent
-** Outputs: dataframe consisting of the std and mean columns, subject number, and activity labels as text 
+* dir: directory which contains the data (test or train)
+* features: column names we care about (std and mean)
+* actvts: lookup table with activity label and numeric equivalent
+* Outputs: dataframe consisting of the std and mean columns, subject number, and activity labels as text 
 * Script downloads the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * unzips the file and sets the working directory to UCI HAR Dataset
 * creates an activities data frame by reading activity_labels.txt
