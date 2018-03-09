@@ -12,9 +12,9 @@
 ** actvts: lookup table with activity label and numeric equivalent
 ** Outputs: dataframe consisting of the std and mean columns, subject number, and activity labels as text 
 ** The function does the following:
-** Reads the subject_(test,train).txt
-** reads the y_(test,train).txt and merges with activities to change numeric activity to text label
-** reads the X_(test,train).txt file and renames the columns according the features
+** Reads the subject_DIR.txt Where DIR is either test or train
+** reads the y_DIR.txt and merges with activities to change numeric activity to text label
+** reads the X_DIR.txt file and renames the columns according the features
 ** adds subject and activity columns
 *** Returns the dataframe
 * Script downloads the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
