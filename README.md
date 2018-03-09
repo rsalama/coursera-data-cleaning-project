@@ -3,6 +3,7 @@
 ## `assumptions`: 
 * Runs under Linux 
 * Expects directory `/tmp` to exist and be writable
+* Can load the dplyr library `library(dplyr)`
 
 ## Script contents:
 * Defines a function, `readData <- function(d, features, actvts)` which takes the following inputs:
